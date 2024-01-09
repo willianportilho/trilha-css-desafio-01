@@ -6,6 +6,7 @@
 
 body {
     background-color: black;
+    color: white;
 }
 
 .banner {
@@ -43,6 +44,26 @@ body {
     font-weight: 400;
     line-height: 23.48px;
     padding: 0px 30px;
+}
+
+.banner-content button {
+    width: 326px;
+    height: 57px;
+    font-size: 16px;
+    background-color: transparent;
+    font-family: "Raleway";
+    font-weight: 900;
+    line-height: 18.78px; /*Efeito não visível porque só há uma linha*/
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    background-clip: text;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    border-image-slice: 1;
+    margin: auto;
 }
 
 .logo {
