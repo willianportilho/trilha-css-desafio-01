@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+body {
+    background-color: black;
+}
+
 .banner {
     height: 605px;
-    background-color: rgb(32, 54, 95);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(3, 75, 105, 0.35), rgba(0, 0, 0, 0.6)), url(../images/banner.png);
     color: rgb(51, 168, 219);
     border-bottom: 1px solid rgb(51, 168, 219);
 }
@@ -26,6 +30,11 @@
     font-weight: 900;
     font-size: 40px;
     line-height: 46.96px; /*Efeito não visível porque só há uma linha*/
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    background-clip: text;
+    text-transform: uppercase;
 }
 
 .banner-content p {
