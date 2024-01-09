@@ -120,3 +120,27 @@ body {
 .modules-list .module span {
     color: rgb(51, 168, 219);
 }
+
+#transform-world {
+    display: flex;
+    align-items: center;
+    height: 560px;
+    margin-top: 86px;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: rgb(51, 168, 219);
+    background-attachment: fixed;
+    background-size:cover;
+    background-image: url(../images/woman-code.png);
+    background-repeat: no-repeat;
+}
+
+#transform-world p{
+    width: 270px;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 52px;
+    padding-left: 200px;
+    text-transform: lowercase;
+    text-shadow: 3px 2px 0 rgb(51, 168, 219);
+}
